@@ -2,8 +2,8 @@ class Pynonymizer < Formula
   include Language::Python::Virtualenv
 
   desc "Tool for anonymizing data in databases"
-  homepage "https://pypi.org/project/pynonymizer/#files"
-  url "https://files.pythonhosted.org/packages/source/p/pynonymizer/pynonymizer-2.5.0.tar.gz"
+  homepage "https://pypi.org/project/pynonymizer"
+  url "https://files.pythonhosted.org/packages/09/e8/9d1ed8e2a3ea849bddb96daff0b6108010d8a9cb9b2ff212f231d7258e24/pynonymizer-2.5.0.tar.gz"
   sha256 "fa6a68a4c3f898ee15446aeb86948bf7bbe27f5987b314e9b41de37cd5bbd519"
   license "MIT"
 
