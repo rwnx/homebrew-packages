@@ -17,9 +17,9 @@ class Pynonymizer < Formula
   depends_on "postgresql" => :optional
 
   def install
-    virtualenv_create(libexec, "python3")
-    system libexec/"bin/pip", "install", buildpath
-    bin.install_symlink Dir["#{libexec}/bin/*"]
+    # Use the recommended virtualenv_install_with_resources instead
+    # This handles creating a virtualenv with pip properly
+    virtualenv_install_with_resources
   end
 
   test do
